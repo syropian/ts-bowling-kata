@@ -1,0 +1,30 @@
+{
+  "name": "ts-bowling-kata",
+  "version": "1.0.0",
+  "description": "Bowling game kata written in Typescript",
+  "private": true,
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "DOM",
+    "closest",
+    "find",
+    "coordinates"
+  ],
+  "author": "Collin Henderson <collin@syropia.net>",
+  "license": "MIT",
+  "repository": "https://github.com/syropian/ts-bowling-kata",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^13.1.8",
+    "core-js": "^3.6.4",
+    "jest": "^24.9.0",
+    "rollup-plugin-typescript2": "^0.24.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {}
+}
